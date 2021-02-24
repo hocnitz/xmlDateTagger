@@ -4,6 +4,7 @@ from xml.etree.ElementTree import Element
 import re
 from pip._vendor import requests
 import json
+import easygui
 
 gregorianDaysFormats = {1: ["1", "01", "ריאשון", "ראשון"],
                         2: ["2", "02", "שני"],
@@ -491,29 +492,18 @@ def iterateETree(node):
         if child is not node:
             iterateETree(child)
 
-#--------------------------------------------test for api ------------------------------------------------
-def jprint(obj):
-    # create a formatted string of the Python JSON object
-    text = json.dumps(obj, sort_keys=True, indent=1)
-    print(text)
-
-def test():
-    # api site : https://www.hebcal.com/home/219/hebrew-date-converter-rest-api
-    # in url string:
-    # hy = hebrew year, hm = Hebrew month, hd = hebrew day. h2g = hebrew to georgian, cfg = what file type to return
-    response = requests.get("https://www.hebcal.com/converter?cfg=json&hy=5749&hm=Kislev&hd=25&h2g=1")
-    print(response.status_code)
-    jprint(response.json())
-#------------------------------------------------------------------------------------------------------
 
 def main():
-    originXmlTree = ET.parse("main.xml")
-    originRoot = originXmlTree.getroot()
-    iterateETree(originRoot)
-    tree = ET.ElementTree(originRoot)
-    tree.write('fixedRule.xml', 'utf-8')
-    print("done!")
-
+    path = easygui.fileopenbox(msg = "Choose a xml file")
+    if path is not None and path.endswith(".xml"):
+        originXmlTree = ET.parse(path)
+        originRoot = originXmlTree.getroot()
+        iterateETree(originRoot)
+        tree = ET.ElementTree(originRoot)
+        tree.write('fixedRule.xml', 'utf-8')
+        print("done!")
+    else:
+        print("no xml file selected")
 
 
 if __name__ == "__main__":
