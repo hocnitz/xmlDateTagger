@@ -2,7 +2,7 @@
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import Element
 import re
-import requests
+from pip._vendor import requests
 import json
 
 gregorianDaysFormats = {1: ["1", "01", "ריאשון", "ראשון"],
@@ -175,7 +175,32 @@ def getHebrewDateAttribute(date):
     findYear = findYear.replace('״', '')
     findYear = findYear.replace('"', '')
 
-    y = "%s" % (getGematriaValue(findYear) + 1240)
+    y = "%s" % ((getGematriaValue(findYear) + 1240) + 3760)
+
+    
+    # hy = hebrew year, hm = Hebrew month, hd = hebrew day. h2g = hebrew to georgian, cfg = what file type to return
+    response = requests.get("https://www.hebcal.com/converter?cfg=json&hy=" + y + "&hm=" + m + "&hd=" + d + "&h2g=1")
+    # print()
+    # jprint(response.json())
+    # print(response.json()["gd"])
+    
+    while response.status_code < 200 | response.status_code > 299 :
+        print ("request failed")
+        response = requests.get("https://www.hebcal.com/converter?cfg=json&hy=" + y + "&hm=" + m + "&hd=" + d + "&h2g=1")
+    
+    d = response.json()["gd"]
+    m = response.json()["gm"]
+    y = str(response.json()["gy"])
+
+    if response.json()["gd"] > 9:
+        d = "%s" % response.json()["gd"]
+    else:
+        d = "0%s" % response.json()["gd"]
+    
+    if response.json()["gm"] > 9:
+        m = "%s" % response.json()["gm"]
+    else:
+        m = "0%s" % response.json()["gm"]
 
     return y + "-" + m + "-" + d
 
@@ -367,11 +392,12 @@ def addDateTagToNodeFromText(node, dateArr):
     date = ""
     if node.tag == "date":
         return
-    id = idGen()
+    
     tempStr = node.text
     node.text = tempStr[0: tempStr.index(dateArr[0])]
 
     for i in range(len(dateArr) - 1):
+        id = idGen()
         dateArr[i] = removeSpacesInEndOfString(dateArr[i])
         if len(re.findall(makeOrExp(hebrewMonthArray, hebrewMonthFormats), dateArr[i])) > 0:
             date = getHebrewDateAttribute(dateArr[i])
@@ -379,7 +405,7 @@ def addDateTagToNodeFromText(node, dateArr):
             date = getGregorianDateAttribute(dateArr[i])
         alternativeDate = datesDict.get(date, None)
         if alternativeDate is None:
-            datesDict[date] == id
+            datesDict[date] = id
             element = ET.Element('date', attrib={'eId': id, 'date': date})
         else:
             element = ET.Element('date', attrib={'eId': id, 'date': date, 'alternativeTo' : alternativeDate})
@@ -388,6 +414,7 @@ def addDateTagToNodeFromText(node, dateArr):
         element.tail = tempStr[: tempStr.index(dateArr[i + 1])]
         node.insert(i, element)
 
+    id = idGen()
     i = len(dateArr) - 1
     dateArr[i] = removeSpacesInEndOfString(dateArr[i])
     if len(re.findall(makeOrExp(hebrewMonthArray, hebrewMonthFormats), dateArr[i])) > 0:
@@ -413,9 +440,10 @@ def addDateTagToNodeFromTail(node, dateArr):
 
     tempStr = node.tail
     node.tail = tempStr[0: tempStr.index(dateArr[0])]
-    id = idGen()
+    
 
     for i in range(len(dateArr) - 1):
+        id = idGen()
         dateArr[i] = removeSpacesInEndOfString(dateArr[i])
         if len(re.findall(makeOrExp(hebrewMonthArray, hebrewMonthFormats), dateArr[i])) > 0:
             date = getHebrewDateAttribute(dateArr[i])
@@ -432,6 +460,7 @@ def addDateTagToNodeFromTail(node, dateArr):
         element.tail = tempStr[0: tempStr.index(dateArr[i + 1])]
         node.append(element)
 
+    id = idGen()
     i = len(dateArr) - 1
     dateArr[i] = removeSpacesInEndOfString(dateArr[i])
     if len(re.findall(makeOrExp(hebrewMonthArray, hebrewMonthFormats), dateArr[i])) > 0:
@@ -484,7 +513,7 @@ def main():
     tree = ET.ElementTree(originRoot)
     tree.write('fixedRule.xml', 'utf-8')
     print("done!")
-    test()
+
 
 
 if __name__ == "__main__":

@@ -1,0 +1,132 @@
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <ns0:act contains="originalVersion" name="publicLaw">
+    <ns0:meta />
+    <ns0:body period="#tmpg_1">
+      <ns0:title eId="title">
+        <ns0:content>
+          <ns0:p>חוק הפחתת <date eId="date_1" date="2011-06-02">כט באייר תשעא</date> תוספות פיגור שנוספו על קנסות הנגבים בידי <date eId="date_2" date="2020-11-16">כט בחשוון תשפ"א</date> המרכז לגביית קנסות, <date eId="date_3" date="2020-01-05">5 בינואר 2020</date> אגרות והוצאות (הוראת שעה), התשע"ז–2016</ns0:p>
+        </ns0:content>
+      </ns0:title>
+      <ns0:list>
+        <ns0:point eId="point_1" class="definitions">
+          <ns0:heading>
+            <ns0:authorialNote placement="side">
+              <ns0:p>הגדרות</ns0:p>
+            </ns0:authorialNote>
+          </ns0:heading>
+          <ns0:num>1.</ns0:num>
+          <ns0:list>
+            <ns0:intro>
+              <ns0:p>בחוק זה –</ns0:p>
+            </ns0:intro>
+            <ns0:point eId="point_1__point_חוב_עדכני">
+              <ns0:content>
+                <ns0:p>
+                  <ns0:def><date eId="date_4" date="2020-09-30">30 לספטמבר 2020</date>  הנגבה בידי <date eId="date_5" date="1956-10-25">כ׳ בחשוון תשח״ט</date> המרכז,<date eId="date_6" date="2020-09-30" alternativeTo="date_4">30 לספטמבר 2020</date> שנוספה עליו תוספת פיגור לפי
+                  </ns0:def>
+                  ”חוב עדכני“ – קנס <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_67">סעיף 67 לחוק העונשין</ns0:ref>
+                  , נקבעו לו הוצאות לנקיטת הליכי גבייה, כמשמעותן
+                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310#point_4">בסעיף 4 לחוק המרכז</ns0:ref>
+                  , אם נקבעו, ושהמועד לתשלומו הוא עד יום התחילה;
+                </ns0:p>
+              </ns0:content>
+            </ns0:point>
+            <ns0:point eId="point_1__point_חוק_המרכז">
+              <ns0:content>
+                <ns0:p>
+                  <ns0:def />
+                  ”חוק המרכז“ –
+                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310">חוק המרכז לגביית קנסות, <date eId="date_7" date="1956-10-25" alternativeTo="date_5">כ׳ בחשוון תשח״ט</date> אגרות והוצאות, התשנ"ה–1995</ns0:ref>
+                  ;
+                </ns0:p>
+              </ns0:content>
+            </ns0:point>
+            <ns0:point eId="point_1__point_חוק_העונשין">
+              <ns0:content>
+                <ns0:p>
+                  <ns0:def />
+                  ”חוק העונשין“ –
+                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק  <date eId="date_8" date="2011-06-02" alternativeTo="date_1">2011-6-2</date>   העונשין, התשל"ז–1977</ns0:ref>
+                  ;
+                </ns0:p>
+              </ns0:content>
+            </ns0:point>
+            <ns0:point eId="point_1__point_יום_התחילה">
+              <ns0:content>
+                <ns0:p>
+                  <ns0:def />
+                  ”יום התחילה“ – יום תחילתו של חוק זה כמשמעותו
+                  <ns0:ref href="#point_4">בסעיף 4</ns0:ref>
+                  ;
+                </ns0:p>
+              </ns0:content>
+            </ns0:point>
+            <ns0:point eId="point_1__point_המרכז">
+              <ns0:content>
+                <ns0:p>
+                  <ns0:def><date eId="date_9" date="1990-12-07">7 בדצמבר 1990</date> אגרות והוצאות כמשמעותו
+                  </ns0:def>
+                  ”המרכז“ – המרכז לגביית קנסות, <ns0:ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310">בחוק המרכז</ns0:ref>
+                  .
+                </ns0:p>
+              </ns0:content>
+            </ns0:point>
+          </ns0:list>
+        </ns0:point>
+        <ns0:point eId="point_2">
+          <ns0:heading>
+            <ns0:authorialNote placement="side">
+              <ns0:p>שיעור חוב עדכני מופחת – הוראת שעה</ns0:p>
+            </ns0:authorialNote>
+          </ns0:heading>
+          <ns0:num>2.</ns0:num>
+          <ns0:list>
+            <ns0:point eId="point_2__point_א">
+              <ns0:num>(א)</ns0:num>
+              <ns0:content>
+                <ns0:p>
+                  על אף האמור
+                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_67">בסעיף 67 לחוק העונשין</ns0:ref>
+                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310#point_4">ובסעיף 4 לחוק המרכז</ns0:ref>
+                  , בתקופה של ארבעה חודשים מיום התחילה (בסעיף זה – תקופת הוראת השעה), יופחת מכל חוב עדכני שיעור של 40% (בסעיף זה – החוב העדכני המופחת), ובלבד שהחוב העדכני המופחת ישולם במלואו במהלך התקופה האמורה; היה החוב העדכני המופחת נמוך מסכום הקנס המקורי, יופחת החוב העדכני לסכום הקנס המקורי.
+                </ns0:p>
+              </ns0:content>
+            </ns0:point>
+            <ns0:point eId="point_2__point_ב">
+              <ns0:num>(ב)</ns0:num>
+              <ns0:content>
+                <ns0:p>
+                  בתקופת הוראת השעה לא תיווסף <date eId="date_10" date="1996-12-30">30.12.1996</date> על החוב העדכני תוספת פיגור כאמור
+                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_67">בסעיף 67 לחוק העונשין</ns0:ref>
+                  .
+                </ns0:p>
+              </ns0:content>
+            </ns0:point>
+            <ns0:point eId="point_2__point_ג">
+              <ns0:num>(ג)</ns0:num>
+              <ns0:content>
+                <ns0:p>
+                  על אף האמור בסעיף קטן (ב), לא שולם החוב העדכני המופחת במלואו בתקופת הוראת השעה, יחולו לגבי החוב העדכני תוספת הפיגור לפי
+                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_67">סעיף 67 לחוק העונשין</ns0:ref>
+                  , גם לגבי תקופת הוראת השעה.
+                </ns0:p>
+              </ns0:content>
+            </ns0:point>
+          </ns0:list>
+        </ns0:point>
+        <ns0:point eId="point_3">
+          <ns0:heading>
+            <ns0:authorialNote placement="side">
+              <ns0:p>ביצוע ותקנות</ns0:p>
+            </ns0:authorialNote>
+          </ns0:heading>
+          <ns0:num>3.</ns0:num>
+          <ns0:content>
+            <ns0:p>שר המשפטים ממונה על ביצועו של חוק זה והוא רשאי, באישור ועדת החוקה חוק ומשפט של הכנסת, להתקין תקנות לביצועו.</ns0:p>
+          </ns0:content>
+        </ns0:point>
+      </ns0:list>
+    </ns0:body>
+    <ns0:conclusions eId="eId" />
+  </ns0:act>
+</ns0:akomaNtoso>
