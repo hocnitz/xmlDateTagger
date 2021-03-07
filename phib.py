@@ -17,7 +17,8 @@ gregorianDaysFormats = {1: ["1", "01", "ריאשון", "ראשון"],
                         9: ["9", "09", "תשיעי"],
                         10: ["10", "עשירי"],
                         11: ["11", "אחד עשר", "אחת עשר", "אחד עשרה", "אחת עשרה"],
-                        12: ["12", "שני עשר", "שתי עשר", "שני עשרה", "שתי עשרה", "שתיים עשר", "שתיים עשרה", "שניים עשר", "שניים עשרה"],
+                        12: ["12", "שני עשר", "שתי עשר", "שני עשרה", "שתי עשרה", "שתיים עשר", "שתיים עשרה", "שניים עשר",
+                             "שניים עשרה"],
                         13: ["13", "שלוש עשר", "שלושה עשר", "שלוש עשרה", "שלושה עשרה"],
                         14: ["14", "ארבע עשר", "ארבעה עשר", "ארבע עשרה", "ארבעה עשרה"],
                         15: ["15", "חמש עשר", "חמישה עשר", "חמש עשרה", "חמישה עשרה", "חמשה עשר", "חמשה עשרה"],
@@ -51,7 +52,8 @@ gregorianMonthFormats = {1: ["1", "01", "ראשון", "ריאשון", "ינוא�
                          11: ["11", "נובמבר", "אחד עשר", "אחד עשרה", "אחת עשר", "אחת עשרה"],
                          12: ["12", "דצמבר", "שתיים עשר", "שתיים עשרה", "שניים עשר", "שניים עשרה"]}
 
-gregorianMonthNameArray = ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"]
+gregorianMonthNameArray = ["ינואר", "פברואר", "מרץ", "מרס", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר",
+                           "אוקטובר", "נובמבר", "דצמבר"]
 
 gregorianYear = "(?:(?:1[0-9]|2[0-9])?[0-9][0-9])"
 
@@ -102,6 +104,8 @@ hebrewMonthFormats = {"Nisan": ["ניסן"],
 
 hebrewYear = "(?:[א-ת][א-ת][א-ת](?:״|\")?[א-ת])"
 
+hebrewYear2 = "(?:[א-ת][א-ת][א-ת](?:״|\")[א-ת])" + "| (?:[א-ת][א-ת][א-ת][א-ת])"
+
 hebrewMonthArray = ["Nisan", "Iyyar", "Sivan", "Tamuz", "Av", "Elul", "Tishrei", "Cheshvan", "Kislev", "Tevet", "Shvat", "Adar1", "Adar2"]
 
 gematriaValues = {'א': 1,
@@ -128,15 +132,24 @@ gematriaValues = {'א': 1,
                   'ת': 400
                   }
 
+start = ["מיום", "מתאריך", "החל מ", "יחול מ", "יחול ב", "מתחילת", "יחולו מ", "מ", "מחודש"]
+
+end = ["עד לתאריך", "עד", "עד ליום", "עד יום"]
+
 separators = [",", "-", "\.", "\/", "ה", "ל", " ", "ב", "מ"]
 
 idCounter = 0
 
 datesDict = {}
 
+
 def makeSeparatorsExp():
     exp = " ?(?:-|:)? ?"
     return exp + "(?:" + "|".join(separators) + ")" + exp
+
+
+def makeOrExpForArray(expArr):
+    return "(?:" + "|".join(expArr) + ")"
 
 
 def makeOrExp(keys, dictionary):
@@ -150,6 +163,27 @@ def makeOrExp(keys, dictionary):
 
     orExp = orExp[0: len(orExp) - 1] + ")"
     return orExp
+
+
+# regular expressions
+gregorianDayMonthYear = "(?:" + makeOrExp(reversed(range(1, 32)),
+                                          gregorianDaysFormats) + makeSeparatorsExp() + makeOrExp(
+    reversed(range(1, 13)), gregorianMonthFormats) + makeSeparatorsExp() + gregorianYear + ")"
+gregorianDayMonth = "(?:" + makeOrExp(reversed(range(1, 32)), gregorianDaysFormats) + makeSeparatorsExp() + makeOrExp(
+    reversed(range(1, 13)), gregorianMonthFormats) + makeSeparatorsExp() + ")"
+gregorianMonthDayYear = "(?:" + makeOrExp(reversed(range(1, 13)),
+                                          gregorianMonthFormats) + makeSeparatorsExp() + makeOrExp(
+    reversed(range(1, 32)), gregorianDaysFormats) + makeSeparatorsExp() + gregorianYear + ")"
+gregorianMonthDay = "(?:" + makeOrExp(reversed(range(1, 13)), gregorianMonthFormats) + makeSeparatorsExp() + makeOrExp(
+    reversed(range(1, 32)), gregorianDaysFormats) + makeSeparatorsExp() + ")"
+gregorianYearMonthDay = "(?:" + gregorianYear + makeSeparatorsExp() + makeOrExp(reversed(range(1, 13)),
+                                                                                gregorianMonthFormats) + makeSeparatorsExp() + makeOrExp(
+    reversed(range(1, 32)), gregorianDaysFormats) + ")"
+hebrewDayMonthYear = "(?:" + makeOrExp(reversed(range(1, 31)), hebrewDaysFormats) + makeSeparatorsExp() + makeOrExp(
+    hebrewMonthArray, hebrewMonthFormats) + makeSeparatorsExp() + hebrewYear + ")"
+startOrEndPrefix = "(?:(?:" + makeOrExpForArray(start) + "|" + makeOrExpForArray(end) + ")" + makeSeparatorsExp() + ")?"
+allExpsWOPrefix = "(?:" + gregorianDayMonthYear + "|" + gregorianDayMonth + "|" + gregorianMonthDayYear + "|" + gregorianMonthDay + "|" + gregorianYearMonthDay + "|" + hebrewDayMonthYear + ")"
+allExps = startOrEndPrefix + allExpsWOPrefix
 
 
 def getHebrewDateAttribute(date):
@@ -172,23 +206,20 @@ def getHebrewDateAttribute(date):
         if findMonth[0] in value:
             m = "%s" % month
             break
-    findYear = re.findall(hebrewYear, separatedDate[2])[0]
+    findYear = re.findall(hebrewYear2, separatedDate[2])[0]
     findYear = findYear.replace('״', '')
     findYear = findYear.replace('"', '')
 
     y = "%s" % ((getGematriaValue(findYear) + 1240) + 3760)
 
-    
     # hy = hebrew year, hm = Hebrew month, hd = hebrew day. h2g = hebrew to georgian, cfg = what file type to return
     response = requests.get("https://www.hebcal.com/converter?cfg=json&hy=" + y + "&hm=" + m + "&hd=" + d + "&h2g=1")
-    # print()
-    # jprint(response.json())
-    # print(response.json()["gd"])
-    
-    while response.status_code < 200 | response.status_code > 299 :
-        print ("request failed")
-        response = requests.get("https://www.hebcal.com/converter?cfg=json&hy=" + y + "&hm=" + m + "&hd=" + d + "&h2g=1")
-    
+
+    while response.status_code < 200 | response.status_code > 299:
+        print("request failed")
+        response = requests.get(
+            "https://www.hebcal.com/converter?cfg=json&hy=" + y + "&hm=" + m + "&hd=" + d + "&h2g=1")
+
     d = response.json()["gd"]
     m = response.json()["gm"]
     y = str(response.json()["gy"])
@@ -197,7 +228,7 @@ def getHebrewDateAttribute(date):
         d = "%s" % response.json()["gd"]
     else:
         d = "0%s" % response.json()["gd"]
-    
+
     if response.json()["gm"] > 9:
         m = "%s" % response.json()["gm"]
     else:
@@ -273,7 +304,7 @@ def getGregorianDateAttribute(date):
             else:
                 if len(findRange13To31InCell0) > 0 & len(findRange13To31InCell2) > 0:
                     return generateGregorianDateAttribute(separatedDate, 0, 1, 2)
-                elif  len(findRange13To31InCell1) > 0 & len(findRange13To31InCell2) > 0:
+                elif len(findRange13To31InCell1) > 0 & len(findRange13To31InCell2) > 0:
                     return generateGregorianDateAttribute(separatedDate, 1, 0, 2)
                 elif len(findDayGreaterThan12InCell0) > 0:
                     return generateGregorianDateAttribute(separatedDate, 0, 1, 2)
@@ -351,7 +382,8 @@ def getDatesForAttribute(dateArr, dayIndex, monthIndex, yearIndex):
                     separatedDate[yearIndex] = "% s" % (1900 + int(separatedDate[2]))
                 else:
                     separatedDate[yearIndex] = "% s" % (2000 + int(separatedDate[2]))
-            dateAttributeArr.append(separatedDate[yearIndex] + "-" + separatedDate[monthIndex] + "-" + separatedDate[dayIndex])
+            dateAttributeArr.append(
+                separatedDate[yearIndex] + "-" + separatedDate[monthIndex] + "-" + separatedDate[dayIndex])
 
     return dateAttributeArr
 
@@ -366,20 +398,7 @@ def findDates(str):
     if str is None:
         return []
 
-    gregorianDayMonthYear = "(?:" + makeOrExp(reversed(range(1, 32)), gregorianDaysFormats) + makeSeparatorsExp() + makeOrExp(reversed(range(1, 13)), gregorianMonthFormats) + makeSeparatorsExp() + gregorianYear + ")"
-    gregorianDayMonth = "(?:" + makeOrExp(reversed(range(1, 32)), gregorianDaysFormats) + makeSeparatorsExp() + makeOrExp(reversed(range(1, 13)), gregorianMonthFormats) + makeSeparatorsExp() + ")"
-    gregorianMonthDayYear = "(?:" + makeOrExp(reversed(range(1, 13)), gregorianMonthFormats) + makeSeparatorsExp() + makeOrExp(reversed(range(1, 32)), gregorianDaysFormats) + makeSeparatorsExp() + gregorianYear + ")"
-    gregorianMonthDay = "(?:" + makeOrExp(reversed(range(1, 13)), gregorianMonthFormats) + makeSeparatorsExp() + makeOrExp(reversed(range(1, 32)), gregorianDaysFormats) + makeSeparatorsExp() + ")"
-    gregorianYearMonthDay = "(?:" + gregorianYear + makeSeparatorsExp() + makeOrExp(reversed(range(1, 13)), gregorianMonthFormats) + makeSeparatorsExp() + makeOrExp(reversed(range(1, 32)), gregorianDaysFormats) + ")"
-
-    hebrewDayMonthYear = "(?:" + makeOrExp(reversed(range(1, 31)), hebrewDaysFormats) + makeSeparatorsExp() + makeOrExp(hebrewMonthArray, hebrewMonthFormats) + makeSeparatorsExp() + hebrewYear + ")"
-
-    allExps = "(?:" + gregorianDayMonthYear + "|" + gregorianDayMonth + "|" + gregorianMonthDayYear + "|" + gregorianMonthDay + "|" + gregorianYearMonthDay + "|" + hebrewDayMonthYear + ")"
-
-
     dateArr = re.findall(allExps, str)
-    # dateArr = re.findall(hebrewDayMonthYear, str)
-
     return dateArr
 
 
@@ -393,41 +412,90 @@ def addDateTagToNodeFromText(node, dateArr):
     date = ""
     if node.tag == "date":
         return
-    
+
+    startPrefix = makeOrExpForArray(start) + makeSeparatorsExp()
+    startPrefixExp = startPrefix + allExpsWOPrefix
+
+    endPrefix = makeOrExpForArray(end) + makeSeparatorsExp()
+    endPrefixExp = endPrefix + allExpsWOPrefix
+
+    explicitDate = re.findall(allExpsWOPrefix, dateArr[0])[0]
     tempStr = node.text
-    node.text = tempStr[0: tempStr.index(dateArr[0])]
+    node.text = tempStr[0: tempStr.index(explicitDate)]
 
     for i in range(len(dateArr) - 1):
         id = idGen()
+        hasReferToAttribute = 0
+
+        findStartExp = re.findall(startPrefixExp, dateArr[i])
+        findEndExp = re.findall(endPrefixExp, dateArr[i])
+
+        if len(findStartExp) > 0:
+            hasReferToAttribute = 1
+        elif len(findEndExp) > 0:
+            hasReferToAttribute = 2
+
+        if hasReferToAttribute > 0:
+            dateArr[i] = re.findall(allExpsWOPrefix, dateArr[i])[0]
+
         dateArr[i] = removeSpacesInEndOfString(dateArr[i])
         if len(re.findall(makeOrExp(hebrewMonthArray, hebrewMonthFormats), dateArr[i])) > 0:
             date = getHebrewDateAttribute(dateArr[i])
         else:
             date = getGregorianDateAttribute(dateArr[i])
         alternativeDate = datesDict.get(date, None)
+
+        elementAtt = {'eId': id, 'date': date}
         if alternativeDate is None:
             datesDict[date] = id
-            element = ET.Element('date', attrib={'eId': id, 'date': date})
-        else:
-            element = ET.Element('date', attrib={'eId': id, 'date': date, 'alternativeTo' : alternativeDate})
+        elif alternativeDate is not None:
+            elementAtt['alternativeTo'] = alternativeDate
+        if hasReferToAttribute == 1:
+            elementAtt['refersTo'] = '#start'
+        elif hasReferToAttribute == 2:
+            elementAtt['refersTo'] = '#end'
+        element = ET.Element('date', attrib=elementAtt)
+
         element.text = dateArr[i]
         tempStr = tempStr[tempStr.index(dateArr[i]) + len(dateArr[i]):]
-        element.tail = tempStr[: tempStr.index(dateArr[i + 1])]
+
+        explicitDate = re.findall(allExpsWOPrefix, dateArr[i + 1])[0]
+        element.tail = tempStr[: tempStr.index(explicitDate)]
         node.insert(i, element)
 
     id = idGen()
     i = len(dateArr) - 1
+
+    hasReferToAttribute = 0
+    findStartExp = re.findall(startPrefixExp, dateArr[i])
+    findEndExp = re.findall(endPrefixExp, dateArr[i])
+
+    if len(findStartExp) > 0:
+        hasReferToAttribute = 1
+    elif len(findEndExp) > 0:
+        hasReferToAttribute = 2
+
+    if hasReferToAttribute > 0:
+        dateArr[i] = re.findall(allExpsWOPrefix, dateArr[i])[0]
+
     dateArr[i] = removeSpacesInEndOfString(dateArr[i])
     if len(re.findall(makeOrExp(hebrewMonthArray, hebrewMonthFormats), dateArr[i])) > 0:
         date = getHebrewDateAttribute(dateArr[i])
     else:
         date = getGregorianDateAttribute(dateArr[i])
     alternativeDate = datesDict.get(date, None)
+
+    elementAtt = {'eId': id, 'date': date}
     if alternativeDate is None:
         datesDict[date] = id
-        element = ET.Element('date', attrib={'eId': id, 'date': date})
-    else:
-        element = ET.Element('date', attrib={'eId': id, 'date': date, 'alternativeTo' : alternativeDate})
+    elif alternativeDate is not None:
+        elementAtt['alternativeTo'] = alternativeDate
+    if hasReferToAttribute == 1:
+        elementAtt['refersTo'] = '#start'
+    elif hasReferToAttribute == 2:
+        elementAtt['refersTo'] = '#end'
+    element = ET.Element('date', attrib=elementAtt)
+
     element.text = dateArr[i]
     tempStr = tempStr[tempStr.index(dateArr[i]) + len(dateArr[i]):]
     element.tail = tempStr
@@ -439,41 +507,88 @@ def addDateTagToNodeFromTail(node, dateArr):
     if node.tag == "date":
         return
 
+    startPrefix = makeOrExpForArray(start) + makeSeparatorsExp()
+    startPrefixExp = startPrefix + allExpsWOPrefix
+
+    endPrefix = makeOrExpForArray(end) + makeSeparatorsExp()
+    endPrefixExp = endPrefix + allExpsWOPrefix
+
+    explicitDate = re.findall(allExpsWOPrefix, dateArr[0])[0]
     tempStr = node.tail
-    node.tail = tempStr[0: tempStr.index(dateArr[0])]
-    
+    node.tail = tempStr[0: tempStr.index(explicitDate)]
 
     for i in range(len(dateArr) - 1):
         id = idGen()
+        hasReferToAttribute = 0
+
+        findStartExp = re.findall(startPrefixExp, dateArr[i])
+        findEndExp = re.findall(endPrefixExp, dateArr[i])
+
+        if len(findStartExp) > 0:
+            hasReferToAttribute = 1
+        elif len(findEndExp) > 0:
+            hasReferToAttribute = 2
+
+        if hasReferToAttribute > 0:
+            dateArr[i] = re.findall(allExpsWOPrefix, dateArr[i])[0]
+
         dateArr[i] = removeSpacesInEndOfString(dateArr[i])
         if len(re.findall(makeOrExp(hebrewMonthArray, hebrewMonthFormats), dateArr[i])) > 0:
             date = getHebrewDateAttribute(dateArr[i])
         else:
             date = getGregorianDateAttribute(dateArr[i])
         alternativeDate = datesDict.get(date, None)
+
+        elementAtt = {'eId': id, 'date': date}
         if alternativeDate is None:
             datesDict[date] = id
-            element = ET.Element('date', attrib={'eId': id, 'date': date})
-        else:
-            element = ET.Element('date', attrib={'eId': id, 'date': date, 'alternativeTo' : alternativeDate})
+        elif alternativeDate is not None:
+            elementAtt['alternativeTo'] = alternativeDate
+        if hasReferToAttribute == 1:
+            elementAtt['refersTo'] = '#start'
+        elif hasReferToAttribute == 2:
+            elementAtt['refersTo'] = '#end'
+        element = ET.Element('date', attrib=elementAtt)
+
         element.text = dateArr[i]
         tempStr = tempStr[tempStr.index(dateArr[i]) + len(dateArr[i]):]
-        element.tail = tempStr[0: tempStr.index(dateArr[i + 1])]
+        explicitDate = re.findall(allExpsWOPrefix, dateArr[i + 1])[0]
+        element.tail = tempStr[0: tempStr.index(explicitDate)]
         node.append(element)
 
     id = idGen()
     i = len(dateArr) - 1
+    hasReferToAttribute = 0
+
+    findStartExp = re.findall(startPrefixExp, dateArr[i])
+    findEndExp = re.findall(endPrefixExp, dateArr[i])
+
+    if len(findStartExp) > 0:
+        hasReferToAttribute = 1
+    elif len(findEndExp) > 0:
+        hasReferToAttribute = 2
+
+    if hasReferToAttribute > 0:
+        dateArr[i] = re.findall(allExpsWOPrefix, dateArr[i])[0]
+
     dateArr[i] = removeSpacesInEndOfString(dateArr[i])
     if len(re.findall(makeOrExp(hebrewMonthArray, hebrewMonthFormats), dateArr[i])) > 0:
         date = getHebrewDateAttribute(dateArr[i])
     else:
         date = getGregorianDateAttribute(dateArr[i])
     alternativeDate = datesDict.get(date, None)
+
+    elementAtt = {'eId': id, 'date': date}
     if alternativeDate is None:
         datesDict[date] = id
-        element = ET.Element('date', attrib={'eId': id, 'date': date})
-    else:
-        element = ET.Element('date', attrib={'eId': id, 'date': date, 'alternativeTo' : alternativeDate})
+    elif alternativeDate is not None:
+        elementAtt['alternativeTo'] = alternativeDate
+    if hasReferToAttribute == 1:
+        elementAtt['refersTo'] = '#start'
+    elif hasReferToAttribute == 2:
+        elementAtt['refersTo'] = '#end'
+    element = ET.Element('date', attrib=elementAtt)
+
     element.text = dateArr[i]
     tempStr = tempStr[tempStr.index(dateArr[i]) + len(dateArr[i]):]
     element.tail = tempStr
@@ -481,20 +596,21 @@ def addDateTagToNodeFromTail(node, dateArr):
 
 
 def iterateETree(node):
-    nodeTextDates = findDates(node.text)
-    nodeTailDates = findDates(node.tail)
-    if len(nodeTextDates) > 0:
-        addDateTagToNodeFromText(node, nodeTextDates)
-    if len(nodeTailDates) > 0:
-        addDateTagToNodeFromTail(node, nodeTailDates)
+    if not (("meta" in node.tag) or ("title" in node.tag) or ("conclusions" in node.tag)):
+        nodeTextDates = findDates(node.text)
+        nodeTailDates = findDates(node.tail)
+        if len(nodeTextDates) > 0:
+            addDateTagToNodeFromText(node, nodeTextDates)
+        if len(nodeTailDates) > 0:
+            addDateTagToNodeFromTail(node, nodeTailDates)
 
-    for child in node.iter():
-        if child is not node:
-            iterateETree(child)
+        for child in node.iter():
+            if child is not node:
+                iterateETree(child)
 
 
 def main():
-    path = easygui.fileopenbox(msg = "Choose a xml file")
+    path = easygui.fileopenbox(msg="Choose a xml file")
     if path is not None and path.endswith(".xml"):
         originXmlTree = ET.parse(path)
         originRoot = originXmlTree.getroot()

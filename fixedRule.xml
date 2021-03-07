@@ -1,132 +1,1654 @@
 <ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
   <ns0:act contains="originalVersion" name="publicLaw">
-    <ns0:meta />
     <ns0:body period="#tmpg_1">
       <ns0:title eId="title">
         <ns0:content>
-          <ns0:p>חוק הפחתת <date eId="date_1" date="2011-06-02">כט באייר תשעא</date> תוספות פיגור שנוספו על קנסות הנגבים בידי <date eId="date_2" date="2020-11-16">כט בחשוון תשפ"א</date> המרכז לגביית קנסות, <date eId="date_3" date="2020-01-05">5 בינואר 2020</date> אגרות והוצאות (הוראת שעה), התשע"ז–2016</ns0:p>
+          <ns0:p>דברי המלך במועצה על <date eId="date_1" date="1993-03-20">20.3.1993</date> ארץ־ישראל, 1922 עד 1947</ns0:p>
         </ns0:content>
       </ns0:title>
-      <ns0:list>
-        <ns0:point eId="point_1" class="definitions">
-          <ns0:heading>
-            <ns0:authorialNote placement="side">
-              <ns0:p>הגדרות</ns0:p>
-            </ns0:authorialNote>
-          </ns0:heading>
-          <ns0:num>1.</ns0:num>
-          <ns0:list>
-            <ns0:intro>
-              <ns0:p>בחוק זה –</ns0:p>
-            </ns0:intro>
-            <ns0:point eId="point_1__point_חוב_עדכני">
-              <ns0:content>
-                <ns0:p>
-                  <ns0:def><date eId="date_4" date="2020-09-30">30 לספטמבר 2020</date>  הנגבה בידי <date eId="date_5" date="1956-10-25">כ׳ בחשוון תשח״ט</date> המרכז,<date eId="date_6" date="2020-09-30" alternativeTo="date_4">30 לספטמבר 2020</date> שנוספה עליו תוספת פיגור לפי
-                  </ns0:def>
-                  ”חוב עדכני“ – קנס <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_67">סעיף 67 לחוק העונשין</ns0:ref>
-                  , נקבעו לו הוצאות לנקיטת הליכי גבייה, כמשמעותן
-                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310#point_4">בסעיף 4 לחוק המרכז</ns0:ref>
-                  , אם נקבעו, ושהמועד לתשלומו הוא עד יום התחילה;
-                </ns0:p>
-              </ns0:content>
-            </ns0:point>
-            <ns0:point eId="point_1__point_חוק_המרכז">
-              <ns0:content>
-                <ns0:p>
-                  <ns0:def />
-                  ”חוק המרכז“ –
-                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310">חוק המרכז לגביית קנסות, <date eId="date_7" date="1956-10-25" alternativeTo="date_5">כ׳ בחשוון תשח״ט</date> אגרות והוצאות, התשנ"ה–1995</ns0:ref>
-                  ;
-                </ns0:p>
-              </ns0:content>
-            </ns0:point>
-            <ns0:point eId="point_1__point_חוק_העונשין">
-              <ns0:content>
-                <ns0:p>
-                  <ns0:def />
-                  ”חוק העונשין“ –
-                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק  <date eId="date_8" date="2011-06-02" alternativeTo="date_1">2011-6-2</date>   העונשין, התשל"ז–1977</ns0:ref>
-                  ;
-                </ns0:p>
-              </ns0:content>
-            </ns0:point>
-            <ns0:point eId="point_1__point_יום_התחילה">
-              <ns0:content>
-                <ns0:p>
-                  <ns0:def />
-                  ”יום התחילה“ – יום תחילתו של חוק זה כמשמעותו
-                  <ns0:ref href="#point_4">בסעיף 4</ns0:ref>
-                  ;
-                </ns0:p>
-              </ns0:content>
-            </ns0:point>
-            <ns0:point eId="point_1__point_המרכז">
-              <ns0:content>
-                <ns0:p>
-                  <ns0:def><date eId="date_9" date="1990-12-07">7 בדצמבר 1990</date> אגרות והוצאות כמשמעותו
-                  </ns0:def>
-                  ”המרכז“ – המרכז לגביית קנסות, <ns0:ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310">בחוק המרכז</ns0:ref>
-                  .
-                </ns0:p>
-              </ns0:content>
-            </ns0:point>
-          </ns0:list>
-        </ns0:point>
-        <ns0:point eId="point_2">
-          <ns0:heading>
-            <ns0:authorialNote placement="side">
-              <ns0:p>שיעור חוב עדכני מופחת – הוראת שעה</ns0:p>
-            </ns0:authorialNote>
-          </ns0:heading>
-          <ns0:num>2.</ns0:num>
-          <ns0:list>
-            <ns0:point eId="point_2__point_א">
-              <ns0:num>(א)</ns0:num>
-              <ns0:content>
-                <ns0:p>
-                  על אף האמור
-                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_67">בסעיף 67 לחוק העונשין</ns0:ref>
-                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310#point_4">ובסעיף 4 לחוק המרכז</ns0:ref>
-                  , בתקופה של ארבעה חודשים מיום התחילה (בסעיף זה – תקופת הוראת השעה), יופחת מכל חוב עדכני שיעור של 40% (בסעיף זה – החוב העדכני המופחת), ובלבד שהחוב העדכני המופחת ישולם במלואו במהלך התקופה האמורה; היה החוב העדכני המופחת נמוך מסכום הקנס המקורי, יופחת החוב העדכני לסכום הקנס המקורי.
-                </ns0:p>
-              </ns0:content>
-            </ns0:point>
-            <ns0:point eId="point_2__point_ב">
-              <ns0:num>(ב)</ns0:num>
-              <ns0:content>
-                <ns0:p>
-                  בתקופת הוראת השעה לא תיווסף <date eId="date_10" date="1996-12-30">30.12.1996</date> על החוב העדכני תוספת פיגור כאמור
-                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_67">בסעיף 67 לחוק העונשין</ns0:ref>
-                  .
-                </ns0:p>
-              </ns0:content>
-            </ns0:point>
-            <ns0:point eId="point_2__point_ג">
-              <ns0:num>(ג)</ns0:num>
-              <ns0:content>
-                <ns0:p>
-                  על אף האמור בסעיף קטן (ב), לא שולם החוב העדכני המופחת במלואו בתקופת הוראת השעה, יחולו לגבי החוב העדכני תוספת הפיגור לפי
-                  <ns0:ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_67">סעיף 67 לחוק העונשין</ns0:ref>
-                  , גם לגבי תקופת הוראת השעה.
-                </ns0:p>
-              </ns0:content>
-            </ns0:point>
-          </ns0:list>
-        </ns0:point>
-        <ns0:point eId="point_3">
-          <ns0:heading>
-            <ns0:authorialNote placement="side">
-              <ns0:p>ביצוע ותקנות</ns0:p>
-            </ns0:authorialNote>
-          </ns0:heading>
-          <ns0:num>3.</ns0:num>
+      <ns0:preamble eId="eId">
+        <ns0:p>שניתנה מלכתכילה החל מ <date eId="date_2" date="1917-11-02" refersTo="#start">2 בנובמבר, 1917</date> <ns0:p>החל מ <date eId="date_3" date="2020-11-03" refersTo="#start">3 בנובמבר, 2020</date><date eId="date_4" date="1945-11-04" refersTo="#start">4 בנובמבר, 1945</date> וגם החל מ <date eId="date_5" date="1945-11-05" refersTo="#start">5 בנובמבר, 1945</date> וגם החל מ <date eId="date_6" date="1945-11-06" refersTo="#start">6 בנובמבר, 1945</date> כדגכגדכגדכ</ns0:p>בלבלב החל מ </ns0:p>
+        <ns0:p>הואיל <date eId="date_7" date="????-12-30">30/12</date> ולמען תת תוקף <date eId="date_8" date="2020-12-30">30/12/2020</date> בלהבלה בלה<ns0:ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_avalon_law_yale_edu_20th_century_leagcov_asp#art22">להוראות סעיף 22 מספר הברית של חבר הלאומים<date eId="date_9" date="????-12-30" alternativeTo="date_7">30/12</date> גם לכך שהממונה יהיה אחראי <date eId="date_10" date="2020-12-30" alternativeTo="date_8">30/12/2020</date> להגשמת </ns0:ref> הסכימו מעצמות ההסכמה הראשיות למסור לידי הממונה, שייבחר ע"י אותן מעצמות, את הנהלת ארץ ישראל שהייתה שייכת קודם לכן לממלכת תורכיה, בתוך אותם הגבולות אשר ייקבעו על ידן;
+
+והואיל ומעצמות ההסכמה הראשיות הסכימו <ns0:ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/w_הצהרת_בלפור">ההצהרה שניתנה מלכתכילה ביום <date eId="date_11" date="1917-11-02" alternativeTo="date_2">2 בנובמבר, 1917</date> ע"י ממשלת הוד מלכותו<date eId="date_12" date="2019-01-05">5 לינואר 2019</date> מלכותו להיות הממונה על ארץ ישראל;
+
+והואיל ויש להוד מלכותו סכמות וכח שיפוט בארץ ישראל בתוקף חוזה, שעבוד, החל מ <date eId="date_13" date="1990-01-30" refersTo="#start">30.1.1990</date> מתנה, מנהג, הסכמה־שבשתיקה ובתוקף אמצעים חוקיים אחרים;
+
+לפיכך נאות הוד מלכותו לצוות, בתוקף הסמכויות  <date eId="date_14" date="2020-11-16">כ״ט בחשוון תשפ״א</date> המסורות לו לתכלית זו </ns0:ref> ונתקבלה ע"י המעצמות הנ"ל, לטובת ייסוד בית לאומי בארץ ישראל לעם היהודי, בתנאי ברור שלא ייעשה כל דבר העלול לפגוע בזכויות האזרחיות והדתיות של העדות שאינן יהודיות, הקיימות בארץ ישראל, או בזכויותיהם ובמעמדם המדיני של היהודים בכל ארץ אחרת;
+
+והואיל ומעצמות ההסכמה הראשיות בחרו בהוד <ns0:ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_legislation_gov_uk_ukpga_Vict_53_54_37_body_enacted">בחוק השיפוט בארצות נכר, 1890</ns0:ref>, או בכל חוק אחר, ובעצת מועצתו הפרטית, ובזה מצווים לאמור:–
+
+<ns0:מפריד /><ns0:wikicomment font-size="x-small">מכוח האמור <ns0:ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_14">בסעיפים 14</ns0:ref><ns0:ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_15">ו־15 לפקודת סדרי השלטון והמשפט, תש"ח–1948</ns0:ref>, כל סמכות שהיתה נתונה על פי החוק בידי מלך בריטניה או בידי הנציב העליון תהא נתונה לממשלה, וכל מקום בו נאמר בחוק ”פלשתינה (א"י)“ ייקרא מעתה ”ישראל“. סמכויות הנציב העליון הוענקו לשר המשפטים (י"פ תש"ט, 152). לפי <ns0:ref href="/akn/il/act/PrimaryLegislation/1949-02-17/147941#point_13">סעיף 13 לחוק המעבר, תש"ט–1949</ns0:ref>, כל מקום בו נאמר בחוק ”עתון רשמי“ ייקרא מעתה ”רשומות“. לפי <ns0:ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_107">סעיף 10(ב) לפקודת בתי משפט (הוראות מעבר), תש"ח–1948 וסעיף 45(ב) לחוק בתי המשפט, תשי"ז–1957</ns0:ref>, כל סמכות שיפוטית שהוענקה לזקן השופטים, נתונה לנשיא בית המשפט העליון ולממלא מקומו הקבוע.</ns0:wikicomment></ns0:p>
+      </ns0:preamble>
+      <ns0:chapter eId="chp_none">
+        <ns0:num />
+        <ns0:title>
           <ns0:content>
-            <ns0:p>שר המשפטים ממונה על ביצועו של חוק זה והוא רשאי, באישור ועדת החוקה חוק ומשפט של הכנסת, להתקין תקנות לביצועו.</ns0:p>
+            <ns0:p>חלק א׳ –  <date eId="date_15" date="2020-11-16" alternativeTo="date_14">כ״ט בחשוון תשפ״א</date> הקדמה</ns0:p>
           </ns0:content>
-        </ns0:point>
-      </ns0:list>
+        </ns0:title>
+        <ns0:list>
+          <ns0:point eId="point_1">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>השם</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>1.</ns0:num>
+            <ns0:content>
+              <ns0:p>לדבר מלך זה ייקרא <ns0:wikicomment font-size="x-small">"</ns0:wikicomment>דברי־המלך במועצה על ארץ־ישראל, 1922 עד 1947<ns0:wikicomment font-size="x-small">"</ns0:wikicomment>.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:content>
+              <ns0:p>דבר מלך זה יקיף את השטחים שחלה עליהם הממונות על ארץ־ישראל לרבות מימי החוף הסמוכים לה והמתוארים מכאן והלאה בשם ישראל.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_2" class="definitions">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>הגדרות</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>2.</ns0:num>
+            <ns0:list>
+              <ns0:intro>
+                <ns0:p>
+                  <ns0:def />בדבר מלך זה:–<ns0:br space="preserve" />סוג="הגדרה"&gt;
+  <ns0:wikicomment font-size="x-small">הגדרת ”מזכיר הממלכה“ הושמטה מכללא.</ns0:wikicomment><ns0:br space="preserve" />סוג="הגדרה"&gt;
+  <ns0:wikicomment font-size="x-small">הגדרת ”הנציב העליון“ הושמטה מכללא.</ns0:wikicomment></ns0:p>
+              </ns0:intro>
+              <ns0:point eId="point_2__point_קרקעות_צבור">
+                <ns0:content>
+                  <ns0:p>
+                    <ns0:def />”קרקעות צבור“ פירושן כל הקרקעות בארץ־ישראל הכפופות להשגחתה של ממשלת ישראל בתוקף חוזה, אמנה, הסכם או ירושה, וכל הקרקעות שנרכשו את שירכשון לשרות הצבור או לכל צורך אחר.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_2__point_רשומות">
+                <ns0:content>
+                  <ns0:p>
+                    <ns0:def />”רשומות“ <ns0:wikicomment font-size="x-small">[במקור: ”עתון רשמי“]</ns0:wikicomment> פירושו העתון הרשמי של ממשלת ישראל.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_2__point_אדם">
+                <ns0:content>
+                  <ns0:p>
+                    <ns0:def />”אדם“ כולל כל חברה או התאגדות או איגוד של בני אדם, בין שהם מאוגדים ובין שהם בלתי מאוגדים.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_2__point_עדה_דתית">
+                <ns0:content>
+                  <ns0:p>
+                    <ns0:def />”עדה דתית“ פירושה כל עדה המוזכרת <ns0:ref href="#appendix_2">בתוספת השניה לדבר המלך הזה</ns0:ref> וכל עדה שהממשלה תכריז עליה בצו כעל עדה דתית.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:wrapup eId="point_2__wrapup_none">
+                <ns0:content>
+                  <ns0:p>מלים המסמנות את הרבים או את היחיד אפשר ליחסן לאדם אחד או לדבר אחד או ליותר מאדם אחד או מדבר אחד ומלים המציינות את מין הזכר אפשר ליחסן למין הנקבה (הכל לפני הענין).</ns0:p>
+                </ns0:content>
+              </ns0:wrapup>
+            </ns0:list>
+          </ns0:point>
+          <ns0:point eId="point_3">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>פירוש</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>3.</ns0:num>
+            <ns0:content>
+              <ns0:p>כל מקום שדבר מלך זה או כל פקודה מקנים סמכות או מטילים תפקיד, הרי, אם אין נראית כונה הפוכה מזו, אפשר להשתמש בסמכות ולמלא את התפקיד מפעם לפעם כפי צורך השעה.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_ii">
+            <ns0:num>(ii)</ns0:num>
+            <ns0:content>
+              <ns0:p>כל מקום שדבר מלך זה או כל פקודה מקנים סמכות לבעל משרה או מטילים עליו תפקיד, הרי, אם אין נראית כונה הפוכה מזו, יכול כל מי שמשמש במשרה באותה שעה או כל מי שנתמנה כראוי למלא את מקומו להשתמש בסמכות ולמלא את התפקיד.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_iii">
+            <ns0:num>(iii)</ns0:num>
+            <ns0:content>
+              <ns0:p>כל מקום שדבר מלך זה או כל פקודה מקנים סמכות להתקין תקנות או להוציא צווים, הרי אם אין נראית כונה הפוכה מזו, רואין את הסמכות כאילו היא כוללת סמכות לבטל, לתקן או לשנות את התקנות או הצווים, כשהיא ניתנת לשימוש באותו אפן וכשהיא כפופה לאותו אישור ולאותם התנאים (אם יש כאלה) כדרך הסמכות הראשונה.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_iv">
+            <ns0:num>(iv)</ns0:num>
+            <ns0:content>
+              <ns0:p>בטויים שהוגדרו בדבר מלך זה, יהא מובנם אחד בכל הפקודות או התקנות שיצאו עפ"י דבר מלך זה, חוץ אם תהא נראית כונה הפוכה מזו.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+      </ns0:chapter>
+      <ns0:chapter eId="chp_none">
+        <ns0:num />
+        <ns0:title>
+          <ns0:content>
+            <ns0:p>חלק ב׳ – הרשות האקסיקוטיבית (המוציאה לפועל)</ns0:p>
+          </ns0:content>
+        </ns0:title>
+        <ns0:list>
+          <ns0:point eId="point_4">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>4.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_5">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>5.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_6">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>6.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_7">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>7.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_8">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>8.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_9">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>חותם הממשלה</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>9.</ns0:num>
+            <ns0:content>
+              <ns0:p>הממשלה תהא שומרת החותם שלה ותחתים בה את כל הדברים שיעברו תחת חותמה הנ"ל.<ns0:br space="preserve" /><ns0:wikicomment font-size="x-small">הוראות בנוגע לחותם הרשמי הוסדרו <ns0:ref href="/akn/il/act/PrimaryLegislation/1949-12-07/147413">בחוק חותם המדינה, תש"י–1949</ns0:ref>.</ns0:wikicomment></ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_10">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>10.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_11">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>הצבת גבולות, יצירת מחוזות וכו׳</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>11.</ns0:num>
+            <ns0:list>
+              <ns0:point eId="point_11__point_1">
+                <ns0:num>(1)</ns0:num>
+                <ns0:content>
+                  <ns0:p>
+                    <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+                  </ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_11__point_2">
+                <ns0:num>(2)</ns0:num>
+                <ns0:content>
+                  <ns0:p>אם תתעורר שאלה בדבר מקום, אם נמצא הוא בגבולות איזה גליל או מחוז אדמיניסטרטיבי או מחוצה לו, ולא נראה שהשאלה נקבעה בהחלטת ממשלה או בכל עדות אחרת, תובא השאלה לפני הממשלה ותעודה שתצא מלפניה תהא תשובה מכרעת על השאלה הזאת ותהא מתקבלת על בתי המשפט כדבר מוכח מאליו.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+            </ns0:list>
+          </ns0:point>
+          <ns0:point eId="point_12">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>12.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_13">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>13.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_14">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>מנוי פקידים</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>14.</ns0:num>
+            <ns0:content>
+              <ns0:p>יכולה הממשלה, למנות או לאשר מנוי פקידים לממשלת ישראל שיכונו באותם התארים שתמצאם לנאותים, ותוכל לקבוע את תפקידיהם; וכל פקידי ממשלה כאלה יכהנו במשרותיהם כל זמן שיהיה הרצון מלפני הממשלה, חוץ אם נקבע אחרת בחוק.<ns0:br space="preserve" /><ns0:wikicomment font-size="x-small">הממשלה העניקה לכל אחד מהשרים את הסמכות למנות את הפקידים הדרושים לביצוע הפקודות והתקנות ולמילוי שאר תפקידיו של השר (ע"ר 23, 144; י"פ 176, 1159).</ns0:wikicomment></ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_15">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>הפסקת עבודתם של פקדי הממשלה</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>15.</ns0:num>
+            <ns0:content>
+              <ns0:p>יכולה הממשלה, לאחר שתראה סבה מספקת לכך, לפטר כל אדם המכהן במשרה ממשלתית בישראל או להפסיק את עבודתו, ויכולה היא, בהתחשב עם האמור לעיל, לנקוט בפעולות דיסיפלינריות אחרות כפי שתמצא לרצוי.<ns0:br space="preserve" /><ns0:wikicomment font-size="x-small">הממשלה העניקה לכל אחד מהשרים את הסמכות לפטר פקידים בתחום משרדו או להפסיק זמנית את כהונתם (י"פ 159, 919).</ns0:wikicomment></ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_16">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>16.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_16א">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>16א.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_16ב">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>16ב.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_16ג">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>16ג.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_16ד">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>16ד.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_16ה">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>16ה.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+      </ns0:chapter>
+      <ns0:chapter eId="chp_none">
+        <ns0:num />
+        <ns0:title>
+          <ns0:content>
+            <ns0:p>חלק ג׳ – הרשות המחוקקת</ns0:p>
+          </ns0:content>
+        </ns0:title>
+        <ns0:list>
+          <ns0:point eId="point_17">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>17.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_18">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>18.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_19">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>19.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_20">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>20.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_21">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>21.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_22">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>22.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_23">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>23.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_24">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>24.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_25">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>25.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_26">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>26.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_27">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>27.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_28">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>28.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_29">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>29.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_30">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>30.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_31">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>31.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_32">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>32.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_33">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>33.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_34">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>34.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+      </ns0:chapter>
+      <ns0:chapter eId="chp_none">
+        <ns0:num />
+        <ns0:title>
+          <ns0:content>
+            <ns0:p>חלק ד׳ – הנהגת חוקים בריטיים ידועים</ns0:p>
+          </ns0:content>
+        </ns0:title>
+        <ns0:list>
+          <ns0:point eId="point_35">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>35.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_36">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>36.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_37">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>37.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+      </ns0:chapter>
+      <ns0:chapter eId="chp_none">
+        <ns0:num />
+        <ns0:title>
+          <ns0:content>
+            <ns0:p>חלק ה׳ – מוסדות המשפט</ns0:p>
+          </ns0:content>
+        </ns0:title>
+        <ns0:list>
+          <ns0:point eId="point_38">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>38.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_39">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>39.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_40">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>40.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_41">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>41.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_42">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>42.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_43">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>43.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_44">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>44.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_45">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>בתי משפט של שבטים</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>45.</ns0:num>
+            <ns0:content>
+              <ns0:p>יכול שר המשפטים לכונן עפ"י צו בתי משפט נפרדים למחוז באר־שבע ולשאר אזורי שבטים כאשר ימצא לנכון. בתי משפט כאלה יכולים לשפוט עפ"י מנהגי השבטים עד כמה שאינם מתנגדים לצדק ולמוסר הטבעי.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_46">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>החוק שישפטו על פיו</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>46.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל, אך בהתאם להוראות <ns0:ref href="/akn/il/act/PrimaryLegislation/1980-07-31/147464#point_2">סעיף 2(ב) לחוק יסודות המשפט, תש"ם–1980</ns0:ref>, אין בביטול הסעיף כדי לפגוע במשפט שנקלט בארץ טרם הביטול).</ns0:wikicomment>
+                <ns0:br space="preserve"><date eId="date_16" date="1914-11-01">1 בנובמבר, 1914</date>, ובהתאם לאותם החוקים העותומנים המאוחרים יותר שהוכרז עליהם או שיוכרז עליהם במודעה רשמית בעל חוקים בני תקף, ובהתאם לאותם דברי מלך במועצה ולפקודות ולתקנות הנוהגים בארץ־ישראל בתאריך דבר מלך זה או אשר ינהגו או יוחקו בעתיד; ובהתחשב עם החוקים, דברי המלך, הפקודות והתקנות האלה ובמקרים שאלה לא יהיו נוהגים לגבם, ישפטו בתי המשפט האזרחיים בהתאם ליסודות החוק המקובל ולעיקרי הצדק הנוהגים באנגליה, ובהתאם לסמכויות הנתונות לבתי משפט שלום ולשופטי שלום באנגליה ובהתאם לפרוצידורה ולמנהגים המקובלים אצל בתי משפט שלום ושופטי שלום כאלו לפי גבולות השיפוט והסמכויות שלהם באותו תאריך, ובמדה שאותם הסמכויות, הפרוצידורה והמנהגים שונו או תוקנו או הוחלפו בכל הוראות אחרות לפני תאריך דבר מלך זה או לאחריו:</ns0:br>בתי המשפט האזרחיים ישפטו בהתאם לחוק העותומני שהיה נוהג בארץ ישראל ביום <ns0:br space="preserve" />בתנאי שהחוק המקובל ועיקרי הצדק המוזכרים לעיל יהיו תמיד נוהגים בארץ־ישראל רק במדה שתנאי ארץ־ישראל ותנאי תושביה וגבולות שיפוט הממשלה ירשו זאת ובהתחשב עם אותם ההגבלות שתנאי המקום יחייבו אותן.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_47">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>שיפוט בעניני המצב האישי</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>47.</ns0:num>
+            <ns0:content>
+              <ns0:p>בהתחשב עם הוראות <ns0:ref href="#part_ה">חלק זה של דבר מלך זה</ns0:ref> יהא לבתי המשפט האזרחיים גם שיפוט בעניני המצב האישי של אנשים בישראל כמוגדר <ns0:ref href="#point_51">בסעיף 51</ns0:ref>. שיפוט זה יהא מוצא לפועל בהתאם לכל חוק, פקודות או תקנות שיונהגו או יוחקו להבא, ובהתחשב עם אלה ישפטו לפי חוק המצב האישי הנוהג לגבי בעלי הדין.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_48">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>48.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_49">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>49.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_50">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>50.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_51">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>בתי דין דתיים, שיפוט בתי הדין הדתיים, הגדרת המצב האישי</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>51.</ns0:num>
+            <ns0:list>
+              <ns0:point eId="point_51__point_1">
+                <ns0:num>(1)</ns0:num>
+                <ns0:content>
+                  <ns0:p>בהתחשב עם הוראות <ns0:ref href="#point_64">הסעיפים 64 עד 67 ועד בכלל</ns0:ref>, יהא השיפוט בעניני המצב האישי, בהתאם להוראות חלק זה, מסור לבתי דין העדות הדתיות. לצורך הוראות אלה, עניני המצב האישי פירושם משפטים בענין נישואין או גטין, מזונות, כלכלה, אפוטרופסות, כשרות יוחסין של קטינים, איסור השימוש ברכושם של אנשים שהחוק פסל אותם, והנהלת נכסי אנשים נעדרים.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_51__point_2">
+                <ns0:num>(2)</ns0:num>
+                <ns0:list>
+                  <ns0:intro>
+                    <ns0:p>מותר לקבוע בפקודה הוראות לענינים דלקמן:</ns0:p>
+                  </ns0:intro>
+                  <ns0:point eId="point_51__point_2__point_א">
+                    <ns0:num>(א)</ns0:num>
+                    <ns0:content>
+                      <ns0:p>ההרכב, הארגון והפרוצדורה של בתי־דין של עדות דתיות, ובהתחשב עם הוראות דבר המלך הזה, גם לענין השימוש בשיפוט ע"י בתי דין אלה; וכן</ns0:p>
+                    </ns0:content>
+                  </ns0:point>
+                  <ns0:point eId="point_51__point_2__point_ב">
+                    <ns0:num>(ב)</ns0:num>
+                    <ns0:content>
+                      <ns0:p>קביעת הנסיבות שבהן ייחשב אדם כחבר לעדה דתית והאמצעים שעל פיהם יש ליתן תוקף חוקי להמרת עדתו הדתית של איזה אדם ולתוצאותיה.</ns0:p>
+                    </ns0:content>
+                  </ns0:point>
+                </ns0:list>
+              </ns0:point>
+            </ns0:list>
+          </ns0:point>
+          <ns0:point eId="point_52">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>בתי דין מושלמים דתיים</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>52.</ns0:num>
+            <ns0:content>
+              <ns0:p>לבתי הדין המושלמים הדתיים יהא שיפוט־יחיד בעניני המצב האישי של מושלמים שהם נתינים ישראליים או נכרים שהנם כפופים בענינים כאלה, לפי חוק נתינותם, לשיפוטם של בתי הדין המושלמים הדתיים, בהתאם <ns0:ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הפרוצדורה_של_בתי_הדין_השרעיים">לחוק הפרוצדורה של בתי הדין המושלמים הדתיים מיום <date eId="date_17" date="1333-10-25" refersTo="#start">25 באוקטובר, 1333</date>, הג׳רייה<date eId="date_18" date="1921-12-20" refersTo="#start">20 בדצמבר, 1921</date>, המכונן מועצה עליונה לענינים המושלמים הדתיים או כל ציוויים או פקודות המתקנים אותם, שיפוט־יחיד בענינים של יצירת ווקף או ההנהלה הפנימית של ווקף שנוצר לטובתם של מושלמים בפני בית־דין מושלמי דתי.</ns0:ref>, כפי שתוקן ע"י כל פקודה או תקנות. כמו כן יהא להם, בהתחשב עם הוראות כל פקודה או הצו מיום </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:content>
+              <ns0:p>פסק שניתן ע"י בית־דין של קאדי מגישין עליו ערעור בפני בית־הדין המושלמי הדתי לערעורים, והחלטתו של בית־דין זה תהיה סופית.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_53">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>בתי דין דתיים של היהודים</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>53.</ns0:num>
+            <ns0:list>
+              <ns0:intro>
+                <ns0:p>לבתי הדין הרבניים של העדה היהודית יהא:–</ns0:p>
+              </ns0:intro>
+              <ns0:point eId="point_53__point_i">
+                <ns0:num>(i)</ns0:num>
+                <ns0:content>
+                  <ns0:p>
+                    <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+                  </ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_53__point_ii">
+                <ns0:num>(ii)</ns0:num>
+                <ns0:content>
+                  <ns0:p>
+                    <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+                  </ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_53__point_iii">
+                <ns0:num>(iii)</ns0:num>
+                <ns0:content>
+                  <ns0:p>שיפוט יחיד בכל ענין הנוגע ליצירתו או להנהלתו הפנימית של ווקף או הקדש דתי שנוסדו לפני בית דין רבני לפי דיני ישראל.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+            </ns0:list>
+          </ns0:point>
+          <ns0:point eId="point_54">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>בתי דין דתיים של הנוצרים</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>54.</ns0:num>
+            <ns0:list>
+              <ns0:intro>
+                <ns0:p>לבתי הדין של העדות הנוצריות השונות יהא:–</ns0:p>
+              </ns0:intro>
+              <ns0:point eId="point_54__point_i">
+                <ns0:num>(i)</ns0:num>
+                <ns0:content>
+                  <ns0:p>שיפוט יחיד בעניני נישואין וגטין, מזונות של חברים מבני עדתם שאינם נתינים נכריים כמוגדר <ns0:ref href="#point_59">בסעיף 59</ns0:ref>.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_54__point_ii">
+                <ns0:num>(ii)</ns0:num>
+                <ns0:content>
+                  <ns0:p>שיפוט בכל הענינים האחרים של מצבם האישי של אותם האנשים, כשכל הצדדים מסכימים לקבל את שיפוטם.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_54__point_iii">
+                <ns0:num>(iii)</ns0:num>
+                <ns0:content>
+                  <ns0:p>שיפוט יחיד בכל ענין הנוגע ליצירתו או להנהלתו הפנימית של ווקף או הקדש דתי שנוסדו לפני בית הדין הדתי בהתאם לדין הדתי של העדה, אם יש לה לאותה עדה חוק דתי.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+              <ns0:point eId="point_54__point_iv">
+                <ns0:num>(iv)</ns0:num>
+                <ns0:content>
+                  <ns0:p>השיפוט לדון ולפסוק בערעורים שהוגשו כחוק עפ"י החוק של כל ארץ, זולת ישראל, בין שהצדדים לערעור הם נתינים ישראליים ובין שהם נכרים.</ns0:p>
+                </ns0:content>
+              </ns0:point>
+            </ns0:list>
+          </ns0:point>
+          <ns0:point eId="point_55">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>ניגודים בין החוק ובין השיפוט</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>55.</ns0:num>
+            <ns0:content>
+              <ns0:p>היו אנשים בני עדות דתיות שונות מעורבים במשפט של מצב אישי, יכול כל צד לפנות בבקשה אל נשיא בית המשפט העליון <ns0:wikicomment font-size="x-small">[במקור: זקן השופטים]</ns0:wikicomment>, והוא יחליט לאיזה בית משפט יהא השיפוט, ואם ימצא לנכון ייעזר בענין זה ביועצים מבני העדות הנוגעות בדבר. אם נתעוררה שאלה באם משפט מסויים הוא משפט של מצב אישי בגבולות שיפוטו היחיד של בית דין דתי יובא לפני בית דין מיוחד שאופן הרכבו ייקבע עפ"י פקודה.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_56">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>56.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_57">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>57.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_58">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>שיפוט על נכרים</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>58.</ns0:num>
+            <ns0:content>
+              <ns0:p>לבתי המשפט האזרחיים יהא שיפוט על נכרים, בהתחשב עם ההוראות הבאות:–</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_59">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>הגדרת ”נכרי“</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>59.</ns0:num>
+            <ns0:content>
+              <ns0:p>לצורך <ns0:ref href="#part_ה">חלק זה של דבר המלך</ns0:ref> הביטוי ”נכרי“ פירושו כל אדם שהוא שאינו נתין ישראלי.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_60">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>60.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_61">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>61.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_62">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>62.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_63">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>63.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_64">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>עניני המצב האישי</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>64.</ns0:num>
+            <ns0:content>
+              <ns0:p>בהתחשב עם הוראות <ns0:ref href="#point_54">סעיף 54 מדבר המלך הזה</ns0:ref> יהיו עניני המצב האישי הנוגעים לנכרים, פרט למושלמים אשר לגביהם יהיו לבתי־הדין המושלמים הדתיים שיפוט־יחיד עפ"י <ns0:ref href="#point_52">סעיף 52 מדבר המלך הזה</ns0:ref>, נחתכים ע"י בתי המשפט האזרחיים שידונו בענינים אלה לפי החוק האישי של הצדדים הנוגעים בדבר בהתאם לתקנות שתתקין הממשלה מזמן לזמן:<ns0:br space="preserve" />בתנאי שלבתי המשפט האזרחיים לא יהא שיפוט ליתן צו לביטול נישואין אלא בהתאם לכל פקודה המקנה שיפוט כזה.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_II">
+            <ns0:num>(II)</ns0:num>
+            <ns0:content>
+              <ns0:p>החוק האישי של הנכרי הנוגע בדבר יהא הדין של נתינותו אלא אם כן אותו חוק גורר עמו את חוק מקום המגורים שלו, ובמקרה זה נוהגין לפי אותו חוק.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_III">
+            <ns0:num>(III)</ns0:num>
+            <ns0:content>
+              <ns0:p>לכשידון בעניני המצב האישי הנוגע לנכרים, רשאי בית המשפט, להזמין את הקונסול או את בא־כוח הקונסוליה של הנכרי הנוגע בדבר לישב בדין כדיין־יועץ לצורך מתן עצה בענין החוק האישי הנוגע בדבר. כשדנים בערעור על פסק במשפט כזה, יהא הקונסול או בא־כוחה של הקונסוליה של הנכרי הנוגע בדבר רשאי לישב לדין כדיין־יועץ בבית המשפט לערעורים.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_65">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>הזכות להעביר משפט לבית דין דתי</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>65.</ns0:num>
+            <ns0:content>
+              <ns0:p>שום דבר האמור <ns0:ref href="#point_64">בסעיף הקודם</ns0:ref> לא יפורש כאילו הוא בא למנוע נכרים מהסכים לכך שענינים אלה יהיו מתבררים בפני בית הדין של העדות הדתיות שיש להם שיפוט באותם הענינים כשהם נוגעים לנתינים ישראליים.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:content>
+              <ns0:p>ואולם בתי הדין של העדות הדתיות, פרט לבתי הדין הדתיים של המושלמים, לא תהא להם סמכות לתת לנכרי פסק של התרת נישואין.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:content>
+              <ns0:p>לצורך סעיף זה פסק לביטול נישואין כולל פסק־גט ופסק גירושין.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_65א">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>65א.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_66">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>66.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_67">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>67.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+      </ns0:chapter>
+      <ns0:chapter eId="chp_none">
+        <ns0:num />
+        <ns0:title>
+          <ns0:content>
+            <ns0:p>חלק ו׳ – הרחקה וגירוש מן הארץ</ns0:p>
+          </ns0:content>
+        </ns0:title>
+        <ns0:list>
+          <ns0:point eId="point_68">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>68.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_69">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>69.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_70">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>70.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_71">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>71.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_72">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>72.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+      </ns0:chapter>
+      <ns0:chapter eId="chp_none">
+        <ns0:num />
+        <ns0:title>
+          <ns0:content>
+            <ns0:p>חלק ז׳ – מתן תוקף חוקי לפקודות, ומתן פיצוי</ns0:p>
+          </ns0:content>
+        </ns0:title>
+        <ns0:list>
+          <ns0:point eId="point_73">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>73.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_74">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>74.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_75">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>75.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_76">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>76.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_77">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>77.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_78">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>78.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_79">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>79.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_80">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>80.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+      </ns0:chapter>
+      <ns0:chapter eId="chp_none">
+        <ns0:num />
+        <ns0:title>
+          <ns0:content>
+            <ns0:p>חלק ח׳ – הוראות כלליות</ns0:p>
+          </ns0:content>
+        </ns0:title>
+        <ns0:list>
+          <ns0:point eId="point_81">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>81.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_82">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>שפות רשמיות</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>82.</ns0:num>
+            <ns0:content>
+              <ns0:p>כל הפקודות, המודעות הרשמיות והטפסים הרשמיים של הממשלה וכל המודעות הרשמיות של רשויות מקומיות ועיריות בתחומים שייקבעו עפ"י צו מאת הממשלה יפורסמו <ns0:wikicomment font-size="x-small">[במקור: באנגלית ו]</ns0:wikicomment>בערבית ובעברית. בהתחשב עם כל תקנות שתתקין הממשלה אפשר להשתמש בשלש השפות במשרדי הממשלה ובבתי המשפט.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:content>
+              <ns0:p>אם תהא כל סתירה בין הנוסח האנגלי של כל פקודה או מודעה רשמית או טופס רשמי לבין הנוסח הערבי או העברי שלהם, הולכין אחר הנוסח האנגלי.<ns0:br space="preserve" /><ns0:wikicomment font-size="x-small">החובה לפרסם פקודות, מודעות רשמיות וטפסים רשמיים בשפה האנגלית, בטלה מכוח <ns0:ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_15">סעיף 15(ג) לפקודת סדרי השלטון והמשפט, תש"ח–1948</ns0:ref>.</ns0:wikicomment><ns0:br space="preserve" /><ns0:wikicomment font-size="x-small">לפי <ns0:ref href="/akn/il/act/PrimaryLegislation/1981-06-15/148391#point_24">סעיף 24 לחוק הפרשנות, התשמ"א–1981</ns0:ref>, הנוסח המחייב של כל דין הוא הנוסח שבשפה שבה הוא ניתן; אולם בדין שניתן באנגלית לפני הקמת המדינה ונקבע לו נוסח חדש – הנוסח החדש מחייב.</ns0:wikicomment></ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_83">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p>חופש המצפון</ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>83.</ns0:num>
+            <ns0:content>
+              <ns0:p>כל האנשים בישראל ייהנו מחופש־המצפון מוחלט, ויוכלו לקיים את צורות פולחנם באין מפריע ובלבד שהסדר הצבורי והמוסר יהיו נשמרים. כל עדה דתית תהנה מעצמאות בעניניה הפנימיים בהתחשב עם הוראות כל פקודה או צו שיצאו מאת הממשלה.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_84">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>84.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_85">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>85.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_86">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>86.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_87">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>87.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_88">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>88.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_89">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>89.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_90">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num>90.</ns0:num>
+            <ns0:content>
+              <ns0:p>
+                <ns0:wikicomment font-size="x-small">(בוטל).</ns0:wikicomment>
+              </ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+        <ns0:subtitle eId="eId">
+          <ns0:num />
+          <ns0:content>
+            <ns0:p>התוספת הראשונה <ns0:wikicomment font-size="x-small">(בוטלה)</ns0:wikicomment></ns0:p>
+          </ns0:content>
+        </ns0:subtitle>
+        <ns0:subtitle eId="eId">
+          <ns0:num />
+          <ns0:content>
+            <ns0:p>התוספת השניה</ns0:p>
+          </ns0:content>
+        </ns0:subtitle>
+        <ns0:subtitle eId="eId">
+          <ns0:num />
+          <ns0:content>
+            <ns0:p>
+              <ns0:wikicomment font-size="x-small">(<ns0:ref href="#point_2">סימן 2</ns0:ref>)</ns0:wikicomment>
+            </ns0:p>
+          </ns0:content>
+        </ns0:subtitle>
+        <ns0:list>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה המזרחית (אורתודוכסית).</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה הלטינית (קתולית).</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה הגריגוריאנית־הארמנית.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה הארמנית (קתולית).</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה הסורית (קתולית).</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה הכשדית (אוניאטית).</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה היהודית.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה היונית־הקתולית, מלכיתית.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה המרונית.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>העדה הסורית־אורתודוכסית.</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>הכנסיה האוונגלית האפיסקופלית בישראל (The Vangelical Episcopal Church In Israel).</ns0:p>
+            </ns0:content>
+          </ns0:point>
+          <ns0:point eId="point_none">
+            <ns0:heading>
+              <ns0:authorialNote placement="side">
+                <ns0:p xml:space="preserve"> </ns0:p>
+              </ns0:authorialNote>
+            </ns0:heading>
+            <ns0:num />
+            <ns0:content>
+              <ns0:p>עדת בני האמונה הבהאית (The Baha'i Faith).</ns0:p>
+            </ns0:content>
+          </ns0:point>
+        </ns0:list>
+      </ns0:chapter>
     </ns0:body>
-    <ns0:conclusions eId="eId" />
+    <ns0:conclusions eId="eId">
+      <ns0:p class="signatures">
+        <ns0:signature>
+          <ns0:p>
+            <ns0:person refersTo="אלמריק_פיצרוי">אלמריק פיצרוי</ns0:person>
+            <ns0:role refersTo="" />
+          </ns0:p>
+        </ns0:signature>
+      </ns0:p>
+    </ns0:conclusions>
   </ns0:act>
 </ns0:akomaNtoso>

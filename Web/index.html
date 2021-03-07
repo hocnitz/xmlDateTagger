@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Responsive Vertical Timeline | CodyHouse</title>
+</head>
+<body>
+	<header class="cd-main-header text-center flex flex-column flex-center">
+    <h1>Law Timeline</h1>
+  </header>
+
+  <section class="cd-timeline js-cd-timeline">
+    <div class="container max-width-lg cd-timeline__container">
+
+      {% for key, val in content.items() %}
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--location">
+          <img src="assets/img/cd-icon-location.svg" alt="Date">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>{{key}}</h2>
+          {% if isCounter == "1" %}
+          <p class="color-contrast-medium">
+            Count: {{val['count']}}
+          </p>
+
+          <p class="color-contrast-medium">
+            Refers To List Count:
+            {% for refersToKey, refersToVal in val['refersTo'].items() %}
+              <p class="color-contrast-medium">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{refersToKey}}: {{refersToVal}}
+              </p>
+            {% endfor %}
+          </p>
+          {% endif %}
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+      {% endfor %}
+
+    </div>
+  </section> <!-- cd-timeline -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
