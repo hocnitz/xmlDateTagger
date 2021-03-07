@@ -5,6 +5,7 @@ import re
 from pip._vendor import requests
 import json
 import easygui
+import os
 
 gregorianDaysFormats = {1: ["1", "01", "ריאשון", "ראשון"],
                         2: ["2", "02", "שני"],
@@ -136,7 +137,7 @@ start = ["מיום", "מתאריך", "החל מ", "יחול מ", "יחול ב", 
 
 end = ["עד לתאריך", "עד", "עד ליום", "עד יום"]
 
-separators = [",", "-", "\.", "\/", "ה", "ל", " ", "ב", "מ"]
+separators = [",", "-", "\.", "\/", "ה", "ל", " ", "ב"]
 
 idCounter = 0
 
@@ -616,7 +617,8 @@ def main():
         originRoot = originXmlTree.getroot()
         iterateETree(originRoot)
         tree = ET.ElementTree(originRoot)
-        tree.write('fixedRule.xml', 'utf-8')
+        nameOfNewFile = os.path.basename(os.path.normpath(path))
+        tree.write(('new'+ nameOfNewFile), 'utf-8')
         print("done!")
     else:
         print("no xml file selected")
