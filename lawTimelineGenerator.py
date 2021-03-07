@@ -70,5 +70,5 @@ if __name__ == "__main__":
         x = reformatDate(key)
         orderedFormatted[x] = val
 
-    print (datesDict)
+    
     app.run()
